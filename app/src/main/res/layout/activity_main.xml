@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <TextView
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="NOTES "
+        android:textColor="#4EAEA5"
+        android:textSize="30sp"
+        android:id="@+id/notestitle"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/RvCategory"
+        android:layout_width="match_parent"
+        android:layout_height="616dp"
+        android:layout_below="@id/notestitle"
+        android:layout_marginTop="11dp" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView3"-->
+    <!--        android:layout_width="264dp"-->
+    <!--        android:layout_height="55dp"-->
+    <!--        android:layout_marginStart="76dp"-->
+    <!--        android:layout_marginTop="68dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="Your Note"-->
+    <!--        android:textColor="#203354"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+</RelativeLayout>

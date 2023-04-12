@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "349920158827",
+    "project_id": "anlayisticnotes",
+    "storage_bucket": "anlayisticnotes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349920158827:android:7a84bb8110bb5003003d2e",
+        "android_client_info": {
+          "package_name": "com.example.anlayisticnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349920158827-smbsefom0qa3gjhhm9icn4md2eoo0oh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7LqbTkiwxmMxkV6gu8uN8HR6OI9uQFro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349920158827-smbsefom0qa3gjhhm9icn4md2eoo0oh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
